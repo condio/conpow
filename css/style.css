@@ -1,0 +1,41 @@
+﻿.logo-area {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 35%;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;    
+  }
+
+  .logo-text-left {
+    float: left;
+    font-size: 3em;
+    font-weight: bold;
+    width: 50%;  
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 350px;
+    text-align: right;
+  }
+
+  .logo {
+    float: left;
+  }
+
+  .logo-text-right {
+    float: left;
+    font-size: 3em;
+    font-weight: bold;
+    width: 50%;  
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 350px;
+    text-align: left;
+  }
+
+  body {
+      background-color: rgb(27, 36, 48);
+      color: white;
+  }
