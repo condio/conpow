@@ -9,7 +9,7 @@
     vertical-align: middle;    
   }
 
-  .logo-text-left {
+.logo-text-left {
     float: left;
     font-size: 3em;
     font-weight: bold;
@@ -20,11 +20,15 @@
     text-align: right;
   }
 
-  .logo {
+.logo {
     float: left;
   }
 
-  .logo-text-right {
+img {
+    height: 400px;
+}
+
+.logo-text-right {
     float: left;
     font-size: 3em;
     font-weight: bold;
@@ -35,7 +39,55 @@
     text-align: left;
   }
 
-  body {
+body {
       background-color: rgb(27, 36, 48);
       color: white;
+  }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    
+    .logo-area {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        width: 20%;
+        padding: 0px;
+        text-align: center;
+        vertical-align: middle;    
+      }
+    
+      .logo-text-left {
+        float: left;
+        font-size: 2em;
+        font-weight: bold;
+        width: 50%;  
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 270px;
+        text-align: right;
+      }
+    
+      .logo {
+        float: left;
+      }
+
+      img {
+        height: 300px;
+      }
+    
+      .logo-text-right {
+        float: left;
+        font-size: 2em;
+        font-weight: bold;
+        width: 50%;  
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 270px;
+        text-align: left;
+      }
   }
